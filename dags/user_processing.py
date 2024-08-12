@@ -1,7 +1,7 @@
 from airflow import DAG
 from datetime import datetime, timedelta
 from airflow.providers.postgres.operators.postgres import PostgresOperator
-
+from airflow.provider.http.sensors.http import HttpSensor
 
 with DAG(
         'user_processing',
@@ -19,7 +19,12 @@ with DAG(
         country text not null,
         username text not null,
         password text not null,
-        email text not null,
+        email text not null
         );
         '''
     )
+
+    is_api_available = HttpSensor(
+        task_id='is_api_available',
+        http_conn_id='user_api',
+        endpoint='api/')
