@@ -1,0 +1,477 @@
+[2024-08-13T13:30:30.890+0000] {processor.py:154} INFO - Started process (PID=10316) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:30:30.891+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:30:30.893+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:30:30.892+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:30:30.915+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:30:30.895+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:30:30.916+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:30:30.995+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.110 seconds
+[2024-08-13T13:31:01.441+0000] {processor.py:154} INFO - Started process (PID=10372) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:31:01.442+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:31:01.442+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:31:01.442+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:31:01.445+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:31:01.444+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:31:01.445+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:31:01.488+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.050 seconds
+[2024-08-13T13:31:32.027+0000] {processor.py:154} INFO - Started process (PID=10437) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:31:32.037+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:31:32.038+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:31:32.038+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:31:32.040+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:31:32.040+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:31:32.041+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:31:32.076+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.052 seconds
+[2024-08-13T13:32:02.958+0000] {processor.py:154} INFO - Started process (PID=10503) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:32:02.959+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:32:02.960+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:32:02.960+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:32:02.964+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:32:02.962+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:32:02.965+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:32:03.008+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.055 seconds
+[2024-08-13T13:32:33.346+0000] {processor.py:154} INFO - Started process (PID=10560) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:32:33.353+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:32:33.353+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:32:33.353+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:32:33.355+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:32:33.354+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:32:33.355+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:32:33.382+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.039 seconds
+[2024-08-13T13:33:04.005+0000] {processor.py:154} INFO - Started process (PID=10626) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:33:04.027+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:33:04.027+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:33:04.027+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:33:04.029+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:33:04.028+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:33:04.029+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:33:04.089+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.087 seconds
+[2024-08-13T13:33:34.476+0000] {processor.py:154} INFO - Started process (PID=10682) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:33:34.477+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:33:34.478+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:33:34.478+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:33:34.483+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:33:34.480+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:33:34.484+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:33:34.549+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.078 seconds
+[2024-08-13T13:34:05.208+0000] {processor.py:154} INFO - Started process (PID=10748) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:34:05.226+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:34:05.228+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:34:05.227+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:34:05.232+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:34:05.230+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:34:05.233+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:34:05.279+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.079 seconds
+[2024-08-13T13:34:35.804+0000] {processor.py:154} INFO - Started process (PID=10812) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:34:35.805+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:34:35.805+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:34:35.805+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:34:35.807+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:34:35.806+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:34:35.807+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:34:35.888+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.087 seconds
+[2024-08-13T13:35:06.080+0000] {processor.py:154} INFO - Started process (PID=10873) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:35:06.098+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:35:06.099+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:35:06.099+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:35:06.101+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:35:06.100+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:35:06.101+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:35:06.135+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.062 seconds
+[2024-08-13T13:35:36.607+0000] {processor.py:154} INFO - Started process (PID=10939) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:35:36.705+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:35:36.706+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:35:36.706+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:35:36.708+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:35:36.707+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:35:36.708+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:35:36.795+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.192 seconds
+[2024-08-13T13:36:07.406+0000] {processor.py:154} INFO - Started process (PID=10996) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:36:07.407+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:36:07.407+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:36:07.407+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:36:07.409+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:36:07.408+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:36:07.409+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:36:07.467+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.063 seconds
+[2024-08-13T13:36:37.892+0000] {processor.py:154} INFO - Started process (PID=11061) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:36:37.956+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:36:37.956+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:36:37.956+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:36:37.958+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:36:37.957+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:36:37.959+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:36:38.041+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.152 seconds
+[2024-08-13T13:37:08.485+0000] {processor.py:154} INFO - Started process (PID=11118) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:37:08.496+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:37:08.498+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:37:08.498+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:37:08.503+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:37:08.501+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:37:08.504+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:37:08.650+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.174 seconds
+[2024-08-13T13:37:38.791+0000] {processor.py:154} INFO - Started process (PID=11184) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:37:38.793+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:37:38.794+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:37:38.794+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:37:38.799+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:37:38.796+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:37:38.800+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:37:38.894+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.115 seconds
+[2024-08-13T13:38:09.126+0000] {processor.py:154} INFO - Started process (PID=11250) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:38:09.140+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:38:09.141+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:38:09.141+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:38:09.143+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:38:09.142+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:38:09.143+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:38:09.179+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.058 seconds
+[2024-08-13T13:38:39.505+0000] {processor.py:154} INFO - Started process (PID=11307) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:38:39.506+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:38:39.507+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:38:39.506+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:38:39.508+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:38:39.508+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:38:39.509+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:38:39.595+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.095 seconds
+[2024-08-13T13:39:10.338+0000] {processor.py:154} INFO - Started process (PID=11374) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:39:10.346+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:39:10.347+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:39:10.347+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:39:10.348+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:39:10.348+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:39:10.349+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:39:10.407+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.072 seconds
+[2024-08-13T13:39:41.073+0000] {processor.py:154} INFO - Started process (PID=11431) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:39:41.095+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:39:41.096+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:39:41.096+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:39:41.099+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:39:41.098+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:39:41.100+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:39:41.189+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.123 seconds
+[2024-08-13T13:40:11.297+0000] {processor.py:154} INFO - Started process (PID=11497) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:40:11.298+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:40:11.299+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:40:11.299+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:40:11.301+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:40:11.300+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:40:11.301+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:40:11.373+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.080 seconds
+[2024-08-13T13:40:41.967+0000] {processor.py:154} INFO - Started process (PID=11562) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:40:41.983+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:40:41.984+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:40:41.984+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:40:41.986+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:40:41.985+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:40:41.987+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:40:42.022+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.060 seconds
+[2024-08-13T13:41:12.161+0000] {processor.py:154} INFO - Started process (PID=11618) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:41:12.174+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:41:12.174+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:41:12.174+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:41:12.176+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:41:12.175+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:41:12.177+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:41:12.204+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.046 seconds
+[2024-08-13T13:41:43.062+0000] {processor.py:154} INFO - Started process (PID=11684) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:41:43.063+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:41:43.064+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:41:43.064+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:41:43.066+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:41:43.065+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:41:43.067+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:41:43.112+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.052 seconds
+[2024-08-13T13:42:13.193+0000] {processor.py:154} INFO - Started process (PID=11740) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:42:13.547+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:42:13.549+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:42:13.549+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:42:13.556+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:42:13.553+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:42:13.557+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:42:13.660+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.474 seconds
+[2024-08-13T13:42:43.833+0000] {processor.py:154} INFO - Started process (PID=11807) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:42:43.850+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:42:43.851+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:42:43.851+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:42:43.852+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:42:43.852+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:42:43.853+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:42:43.926+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.097 seconds
+[2024-08-13T13:43:14.632+0000] {processor.py:154} INFO - Started process (PID=11869) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:43:14.633+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:43:14.634+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:43:14.633+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:43:14.635+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:43:14.634+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:43:14.635+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:43:14.919+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.289 seconds
+[2024-08-13T13:43:45.093+0000] {processor.py:154} INFO - Started process (PID=11928) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:43:45.106+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:43:45.107+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:43:45.107+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:43:45.109+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:43:45.108+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/producer.py", line 11
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-08-13T13:43:45.109+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:43:45.157+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.067 seconds
+[2024-08-13T13:44:01.381+0000] {processor.py:154} INFO - Started process (PID=11972) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:44:01.381+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:44:01.382+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:44:01.382+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:44:01.382+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:44:01.382+0000] {dagbag.py:319} INFO - File /opt/airflow/dags/producer.py assumed to contain no DAGs. Skipping.
+[2024-08-13T13:44:01.382+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:44:01.431+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.054 seconds
+[2024-08-13T13:44:31.854+0000] {processor.py:154} INFO - Started process (PID=12029) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:44:32.061+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:44:32.062+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:44:32.062+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:44:32.063+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:44:32.063+0000] {dagbag.py:319} INFO - File /opt/airflow/dags/producer.py assumed to contain no DAGs. Skipping.
+[2024-08-13T13:44:32.064+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:44:32.083+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.232 seconds
+[2024-08-13T13:45:02.274+0000] {processor.py:154} INFO - Started process (PID=12096) to work on /opt/airflow/dags/producer.py
+[2024-08-13T13:45:02.318+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/producer.py for tasks to queue
+[2024-08-13T13:45:02.319+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:45:02.319+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/producer.py
+[2024-08-13T13:45:02.320+0000] {logging_mixin.py:120} INFO - [2024-08-13T13:45:02.320+0000] {dagbag.py:319} INFO - File /opt/airflow/dags/producer.py assumed to contain no DAGs. Skipping.
+[2024-08-13T13:45:02.320+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/producer.py
+[2024-08-13T13:45:02.341+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/producer.py took 0.077 seconds

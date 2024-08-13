@@ -2097,3 +2097,17 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'airflow.provider'
 [2024-08-12T22:54:00.253+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
 [2024-08-12T22:54:00.785+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/user_processing.py took 0.753 seconds
+[2024-08-12T22:54:31.285+0000] {processor.py:154} INFO - Started process (PID=22743) to work on /opt/airflow/dags/user_processing.py
+[2024-08-12T22:54:31.287+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-08-12T22:54:31.287+0000] {logging_mixin.py:120} INFO - [2024-08-12T22:54:31.287+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-08-12T22:54:31.338+0000] {logging_mixin.py:120} INFO - [2024-08-12T22:54:31.337+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 4, in <module>
+    from airflow.provider.http.sensors.http import HttpSensor
+ModuleNotFoundError: No module named 'airflow.provider'
+[2024-08-12T22:54:31.338+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2024-08-12T22:54:31.398+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/user_processing.py took 0.121 seconds

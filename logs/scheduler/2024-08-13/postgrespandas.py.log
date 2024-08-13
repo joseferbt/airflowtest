@@ -1,0 +1,39 @@
+[2024-08-13T21:15:07.019+0000] {processor.py:154} INFO - Started process (PID=72) to work on /opt/airflow/dags/postgrespandas.py
+[2024-08-13T21:15:07.020+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/postgrespandas.py for tasks to queue
+[2024-08-13T21:15:07.022+0000] {logging_mixin.py:120} INFO - [2024-08-13T21:15:07.022+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/postgrespandas.py
+[2024-08-13T21:15:17.879+0000] {processor.py:766} INFO - DAG(s) dict_keys(['postgres_csv_etl']) retrieved from /opt/airflow/dags/postgrespandas.py
+[2024-08-13T21:15:18.173+0000] {logging_mixin.py:120} INFO - [2024-08-13T21:15:18.172+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:postgres_csv_etl
+[2024-08-13T21:15:18.206+0000] {logging_mixin.py:120} INFO - [2024-08-13T21:15:18.206+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:postgres_csv_etl
+[2024-08-13T21:15:18.248+0000] {logging_mixin.py:120} INFO - [2024-08-13T21:15:18.247+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:postgres_csv_etl
+[2024-08-13T21:15:18.249+0000] {logging_mixin.py:120} INFO - [2024-08-13T21:15:18.248+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-08-13T21:15:18.281+0000] {logging_mixin.py:120} INFO - [2024-08-13T21:15:18.280+0000] {dag.py:2606} INFO - Creating ORM DAG for postgres_csv_etl
+[2024-08-13T21:15:18.294+0000] {logging_mixin.py:120} INFO - [2024-08-13T21:15:18.294+0000] {dag.py:3340} INFO - Setting next_dagrun for postgres_csv_etl to None, run_after=None
+[2024-08-13T21:15:18.347+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/postgrespandas.py took 11.335 seconds
+[2024-08-13T21:15:48.593+0000] {processor.py:154} INFO - Started process (PID=111) to work on /opt/airflow/dags/postgrespandas.py
+[2024-08-13T21:15:48.608+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/postgrespandas.py for tasks to queue
+[2024-08-13T21:15:48.609+0000] {logging_mixin.py:120} INFO - [2024-08-13T21:15:48.609+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/postgrespandas.py
+[2024-08-13T21:15:48.825+0000] {processor.py:766} INFO - DAG(s) dict_keys(['postgres_csv_etl']) retrieved from /opt/airflow/dags/postgrespandas.py
+[2024-08-13T21:15:48.850+0000] {logging_mixin.py:120} INFO - [2024-08-13T21:15:48.850+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-08-13T21:15:48.869+0000] {logging_mixin.py:120} INFO - [2024-08-13T21:15:48.869+0000] {dag.py:3340} INFO - Setting next_dagrun for postgres_csv_etl to None, run_after=None
+[2024-08-13T21:15:48.984+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/postgrespandas.py took 0.398 seconds
+[2024-08-13T21:16:19.331+0000] {processor.py:154} INFO - Started process (PID=146) to work on /opt/airflow/dags/postgrespandas.py
+[2024-08-13T21:16:19.347+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/postgrespandas.py for tasks to queue
+[2024-08-13T21:16:19.347+0000] {logging_mixin.py:120} INFO - [2024-08-13T21:16:19.347+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/postgrespandas.py
+[2024-08-13T21:16:19.560+0000] {processor.py:766} INFO - DAG(s) dict_keys(['postgres_csv_etl']) retrieved from /opt/airflow/dags/postgrespandas.py
+[2024-08-13T21:16:19.591+0000] {logging_mixin.py:120} INFO - [2024-08-13T21:16:19.590+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-08-13T21:16:19.623+0000] {logging_mixin.py:120} INFO - [2024-08-13T21:16:19.623+0000] {dag.py:3340} INFO - Setting next_dagrun for postgres_csv_etl to None, run_after=None
+[2024-08-13T21:16:19.658+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/postgrespandas.py took 0.329 seconds
+[2024-08-13T21:16:50.057+0000] {processor.py:154} INFO - Started process (PID=181) to work on /opt/airflow/dags/postgrespandas.py
+[2024-08-13T21:16:50.078+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/postgrespandas.py for tasks to queue
+[2024-08-13T21:16:50.079+0000] {logging_mixin.py:120} INFO - [2024-08-13T21:16:50.078+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/postgrespandas.py
+[2024-08-13T21:16:50.268+0000] {processor.py:766} INFO - DAG(s) dict_keys(['postgres_csv_etl']) retrieved from /opt/airflow/dags/postgrespandas.py
+[2024-08-13T21:16:50.293+0000] {logging_mixin.py:120} INFO - [2024-08-13T21:16:50.293+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-08-13T21:16:50.313+0000] {logging_mixin.py:120} INFO - [2024-08-13T21:16:50.313+0000] {dag.py:3340} INFO - Setting next_dagrun for postgres_csv_etl to None, run_after=None
+[2024-08-13T21:16:50.338+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/postgrespandas.py took 0.283 seconds
+[2024-08-13T21:17:20.739+0000] {processor.py:154} INFO - Started process (PID=208) to work on /opt/airflow/dags/postgrespandas.py
+[2024-08-13T21:17:20.753+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/postgrespandas.py for tasks to queue
+[2024-08-13T21:17:20.754+0000] {logging_mixin.py:120} INFO - [2024-08-13T21:17:20.754+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/postgrespandas.py
+[2024-08-13T21:17:20.964+0000] {processor.py:766} INFO - DAG(s) dict_keys(['postgres_csv_etl']) retrieved from /opt/airflow/dags/postgrespandas.py
+[2024-08-13T21:17:20.995+0000] {logging_mixin.py:120} INFO - [2024-08-13T21:17:20.994+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-08-13T21:17:21.029+0000] {logging_mixin.py:120} INFO - [2024-08-13T21:17:21.029+0000] {dag.py:3340} INFO - Setting next_dagrun for postgres_csv_etl to None, run_after=None
+[2024-08-13T21:17:21.063+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/postgrespandas.py took 0.328 seconds
